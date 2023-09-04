@@ -1,0 +1,22 @@
+//First the program asks for two whole numbers and then does some simple calculations.
+
+#include <stdio.h>
+int main(){
+    int number1, number2;
+    printf("Please enter two whole numbers: ");
+    scanf("%d %d", &number1, &number2);
+    
+    int summa = number1 + number2;
+    int erotus = number1 - number2;
+    int tulo = number1 * number2;
+    float osamäärä = number1 / number2;
+    
+    printf("\nNumeroiden summa on %d\n", summa);
+    printf("\nNumeroiden erotus on %d\n", erotus);
+    printf("\nNumeroiden tulo on %d\n", tulo);
+    printf("\nNumeroide osamäärä on %0.2f\n", osamäärä);
+    
+    return 0;
+}
+
+//Might come back to this one as well when more experienced
